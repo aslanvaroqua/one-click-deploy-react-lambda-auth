@@ -38,7 +38,18 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <LambdaDemo/>
+      <div className="form_login">
+          <!-- Add a menu:
+           Log in / Sign up - when the user is not logged in
+           Username / Log out - when the user is logged in
+          -->
+          <div data-netlify-identity-menu></div>
+
+          <!-- Add a simpler button:
+            Simple button that will open the modal.
+          -->
+          <div data-netlify-identity-button>Login with Netlify Identity</div>
+      </div>
       </div>
     );
   }
