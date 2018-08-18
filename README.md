@@ -2,6 +2,8 @@ This project is based on [Create React App Lambda]https://github.com/netlify/cre
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/aslanvaroqua/one-click-deploy-react-lambda-auth)
 
+* new
+added identity, mongodb, eslint, eslint google, jdovd automated, and some pentesting..
 ## Babel/webpack compilation
 
 All functions are compiled with webpack using the Babel Loader, so you can use modern JavaScript, import npm modules, etc., without any extra setup.
