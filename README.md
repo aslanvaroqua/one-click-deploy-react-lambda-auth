@@ -1,10 +1,6 @@
-This project is based on [Create React App](https://github.com/facebookincubator/create-react-app). (For more information about Create react App, check their full [documentation](https://github.com/facebookincubator/create-react-app#create-react-app).)
+This project is based on [Create React App Lambda]https://github.com/netlify/create-react-app-lambda). (For more information about Create react App, check their repo over at netlify. This project adds authentication with Netlify identity and mongodb jsdocs, eslint with google standard and other bells and whistles. 
 
-The main addition is a new folder: `src/lambda`. Each JavaScript file in there will automatically be prepared for Lambda function deployment.
-
-As an example, we've included a small `src/lambda/hello.js` function, which will be deployed to `/.netlify/functions/hello`.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/create-react-app-lambda)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/aslanvaroqua/one-click-deploy-react-lambda-auth)
 
 ## Babel/webpack compilation
 
